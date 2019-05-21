@@ -7,12 +7,12 @@
 # end
 
 def reverse_each_word(string)
-  
+
 
   str_n = string.split.collect do |str|
     str.reverse
   end
 
   str_n.join(" ")
-  
+
 end
